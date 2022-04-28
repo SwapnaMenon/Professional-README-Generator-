@@ -11,6 +11,7 @@ const questions = [
         message: "Enter your name",
 
     },
+
     {
         type: "input",
         name: "title", 
@@ -25,7 +26,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "whats the installation process?",
+        message: "whats the installation process/Instructions?",
     },
     {
         type: "input",
@@ -37,6 +38,29 @@ const questions = [
         name: "license",
         message: "choose your license.",
         choices: ["MIT","ISC","BOOST"], 
+    },
+    {
+        type: "confirm",
+        name: "confirmContact",
+        message: "What is the best way to contact you?",
+        choice: ["email, phone"]
+    },
+    {
+        type: "input",
+        name: "userphone",
+        message: "Enter your Contact number.",
+        when: ({confirmContact}) =>confirmContact
+    },
+    {
+        type: "input",
+        name: "useremail",
+        message: "Enter your Email Address.",
+        when: ({confirmContact}) =>confirmContact
+    },
+    {
+        type: "input",
+        name: "githubusername",
+        message: "Enter your Github Username .",
     },
     {
         type: "input",

@@ -1,14 +1,20 @@
-# project 
+# Professional readme 
   ![badge]() 
   
+  ## User's Name
+  Swapna Menon
+
   ## description
-  creating a professional readme file 
+  user can create a professional read me file using the command line 
 
   ## installation
-  insall node 
+  install inquirer
 
   ## usage 
-  creating a professional readme 
+  creation of the professional readme 
 
   ## license
   MIT
+
+  ## Github Repo
+  https://github.com/SwapnaMenon/Professional-README-Generator-

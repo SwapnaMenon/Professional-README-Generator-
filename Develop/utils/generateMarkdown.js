@@ -16,7 +16,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ![badge]() 
   
-  ##User' Name
+  ## User's Name
   ${data.username}
 
   ## description
