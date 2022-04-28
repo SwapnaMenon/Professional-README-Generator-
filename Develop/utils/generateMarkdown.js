@@ -19,8 +19,11 @@ function generateMarkdown(data) {
   ## User's Name
   ${data.username}
 
-  ## description
+  ## Description
   ${data.description}
+
+  # Motivation
+  ${data.motivation}
 
   ## installation
   ${data.installation}

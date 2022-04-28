@@ -9,9 +9,7 @@ const questions = [
         type: "input",
         name: "username", 
         message: "Enter your name",
-
     },
-
     {
         type: "input",
         name: "title", 
@@ -21,7 +19,22 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "describe your project",
+        message: "Provide a Short Description of your project",
+    },
+    {
+        type: "input",
+        name: "motivation",
+        message:"What was your motivation",
+    },
+    {
+        type: "input",
+        name: "reason",
+        message: "Reason behind building this project",
+    },
+    {
+        type: "input",
+        name: "Problem",
+        message: "Did thsi application solve any issue/problem?",
     },
     {
         type: "input",
@@ -40,7 +53,7 @@ const questions = [
         choices: ["MIT","ISC","BOOST"], 
     },
     {
-        type: "confirm",
+        type: "choice",
         name: "confirmContact",
         message: "What is the best way to contact you?",
         choice: ["email, phone"]
