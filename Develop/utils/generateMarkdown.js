@@ -16,6 +16,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ![badge]() 
   
+  ##User' Name
+  ${data.username}
+
   ## description
   ${data.description}
 
@@ -27,6 +30,9 @@ function generateMarkdown(data) {
 
   ## license
   ${data.license}
+
+  ## Github Repo
+  ${data.githubrepo}
 `;
 }
 

@@ -7,7 +7,7 @@ const fs = require("fs") //fs is a buitin sys that has multiple functions in js/
 const questions = [
     {
         type: "input",
-        name: "title", 
+        name: "username", 
         message: "Enter your name",
 
     },
@@ -40,7 +40,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Github Repo",
+        name: "githubrepo",
         message: "Enter your Github repo.",
     },
 // possible questions: test. contribution//
