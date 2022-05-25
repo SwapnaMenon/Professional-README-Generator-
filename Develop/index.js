@@ -62,13 +62,14 @@ const questions = [
         type: "input",
         name: "userphone",
         message: "Enter your Contact number.",
-        when: ({confirmContact}) =>confirmContact
+        when: ({confirmContact}) =>confirmContact==="phone"
+
     },
     {
         type: "input",
         name: "useremail",
         message: "Enter your Email Address.",
-        when: ({confirmContact}) =>confirmContact
+        when: ({confirmContact}) =>confirmContact==="email"
     },
     {
         type: "input",

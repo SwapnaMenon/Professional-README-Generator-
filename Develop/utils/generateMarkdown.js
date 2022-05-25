@@ -13,6 +13,8 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 //use of back ticks//
 function generateMarkdown(data) {
+  const LicenseSection=renderLicenseSection(data.license)
+  const badgeImage=renderLicenseBadge(data.license)
   return `# ${data.title}
   ![badge]() 
   
@@ -32,7 +34,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## license
-  ${data.license}
+  ${LicenseSection}
 
   ## Github Repo
   ${data.githubrepo}
